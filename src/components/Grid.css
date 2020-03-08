@@ -1,0 +1,98 @@
+.grid {
+  display: inline-block;
+  margin: 0 auto;
+  height: auto;
+  padding: 0.5%;
+  color: blue;
+}
+
+.box{
+  height: min(calc(calc(100vh - 40px) / 30), calc(100vw / 63));
+  width: min(calc(calc(100vh - 40px) / 30), calc(100vw / 63));
+  margin-bottom: -1px;
+  margin-right: -1px;
+}
+
+.inner-blank{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-color: #85c4ff;
+  border-width: 1px;
+  border-style: solid;
+  z-index: 1;
+}
+
+
+@keyframes block {
+  0% {border-radius: 30px; margin: 25%; height: 50%; width: 50%}
+  50% {border-radius: 30px; margin: -10%; height: 120%; width: 120%;}
+  100% {border-radius: 0px; margin: 0%; height: 100%; width: 100%} 
+}
+
+.inner-block{
+  z-index: 2;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  margin: 0%;
+  animation-name: block;
+  background: #2b80ff;
+  animation-duration: 300ms;
+}
+
+
+.inner-start{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  background: #000000;
+}
+
+.inner-goal{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  background: #f20000;
+}
+
+@keyframes search {
+  0% {margin: 40%; height: 10%; width:10%; border-radius: 15px; background: #ffcb3b}
+  50% {margin: 0%; height: 100%; width: 100%; border-radius: 15px; background: #ff3b3b}
+  100% {border-radius: 0px; background: #3bf8ff;} 
+}
+
+.inner-search{
+  height: 100%;
+  width: 100%;
+  border-color: #b8fcff;
+  border-width: 1px;
+  border-style: solid;
+  background: #3bf8ff;
+  animation-name: search;
+  animation-duration: 750ms;
+}
+
+@keyframes path {
+  0% {margin: 0%; height: 100%; width:100%; border-radius: 0px; background: #3bf8ff}
+  50% {margin: 10%; height: 80%; width: 80%; border-radius: 7px; background: #000000}
+  100% {margin: 0%; height: 100%; width:100%; border-radius: 0px;border-radius: 0px; background: #000000;} 
+}
+
+.inner-path{
+  height: 100%;
+  width: 100%;
+  border-radius: 0px;
+  background: #000000;
+  
+  animation-name: path;
+  animation-duration: 300ms;
+}
+
+
+
+
+.row{
+  margin: 0px;
+}
