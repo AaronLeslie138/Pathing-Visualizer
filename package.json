@@ -1,8 +1,8 @@
 {
   "name": "pathing-algs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
-  "homepage": "http://aaronleslie138.github.io/pathing-visualizer",
+  "homepage": "http://aaronleslie138.github.io/Pathing-Visualizer/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

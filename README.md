@@ -8,3 +8,6 @@ It can generate its own Mazes and Blocks to test the pathfinding algorithms agai
 
 The website is responsive, and works on various browser sizes (Please use Google Chrome). It even works in landscape mode on my phone, though that isn't a target use case.
 
+Low Framerate Gif:
+
+<img src='demo.gif'/>
