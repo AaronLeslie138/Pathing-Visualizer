@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55ff4224d1f0b25732de3a5d5861033d",
+    "revision": "045d3db4483246d86ce6abc238474976",
     "url": "/Pathing-Visualizer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pathing-Visualizer/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "9f178eeddfce5361a633",
+    "revision": "23c4b787d79971dd6343",
     "url": "/Pathing-Visualizer/static/css/main.1284f14d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Pathing-Visualizer/static/js/2.dce2209a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9f178eeddfce5361a633",
-    "url": "/Pathing-Visualizer/static/js/main.5b4e034f.chunk.js"
+    "revision": "23c4b787d79971dd6343",
+    "url": "/Pathing-Visualizer/static/js/main.503e9508.chunk.js"
   },
   {
     "revision": "f4ee4377a610b058464c",
