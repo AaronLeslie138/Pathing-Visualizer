@@ -13,6 +13,10 @@ class PathingApp extends React.Component {
     this.algorithmOverlord = new AlgorithmmOverlord(this.headerRef, this.gridRef);
   }
 
+  componentWillMount() {
+    document.title = 'Pathing Visualizer'
+  }
+
   render(){
     return(
         <div className="pathingApp">
