@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Pathing-Visualizer/precache-manifest.7a8c7a06dfa474d941f1ab0dffe4a8a5.js"
+  "/Pathing-Visualizer/precache-manifest.a7c60bf0390717e8236ad5f70fb7d78e.js"
 );
 
 self.addEventListener('message', (event) => {
