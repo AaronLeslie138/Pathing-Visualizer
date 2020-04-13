@@ -10,7 +10,7 @@ export default class Header extends React.Component {
 
     constructor(props){
         super(props);
-        this.state = {algorithm: algorithms["bfs"]};
+        this.state = {algorithm: algorithms["greedy"]};
     }
 
     setAlgorithm = (alg) => {

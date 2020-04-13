@@ -27,7 +27,7 @@ class FringeLocation{
 
 export class AlgorithmmOverlord{
     constructor(headerRef, gridRef){
-        this.algorithm = "bfs"
+        this.algorithm = "greedy"
         this.isSearching = false;
 
         this.wasClicked = new Set();
@@ -42,6 +42,7 @@ export class AlgorithmmOverlord{
 
     search = () => {
         if(this.searching) return;
+        this.clearPaths();
         this.searching = true;
         let fringe = null;
         if(this.algorithm === "bfs"){
