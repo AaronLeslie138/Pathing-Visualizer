@@ -50,7 +50,7 @@ export class AlgorithmmOverlord{
             });
         }else if(this.algorithm === "greedy"){
             fringe = new TinyQueue ([new FringeLocation(startIndex, [], 0, 0)], function(a, b) {
-                if(a.heuristic === b.heuristic) return a.cost - b.cost
+                //if(a.heuristic === b.heuristic) return a.cost - b.cost
                 return a.heuristic - b.heuristic;
             });
         }else if(this.algorithm === "a"){

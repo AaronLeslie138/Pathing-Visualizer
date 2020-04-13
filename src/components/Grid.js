@@ -22,6 +22,18 @@ class Box extends React.Component {
 
 }
 
+class OffScreenWarning extends React.Component {
+    constructor(props){
+        super(props);
+    }
+
+    render(){
+        return(
+            <div style={{overflow: "hidden"}}><h3 style={{marginTop: "calc(100vh - 250px)"}}>{"If you see this text, but no large grid above, your browser is several years out of date. Please use an up-to-date Chrome or Firefox based browser."}</h3></div>
+        )
+    }
+}
+
 export default class Grid extends React.Component {
     constructor(props){
         super(props);
@@ -61,6 +73,7 @@ export default class Grid extends React.Component {
                     {/*this.expandFringe=expandFringe*/}
                     {this.createTable()}
                 </div>
+                <OffScreenWarning/>
             </div>
         );
     }
