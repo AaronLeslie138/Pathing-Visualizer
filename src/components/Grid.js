@@ -29,7 +29,7 @@ class OffScreenWarning extends React.Component {
 
     render(){
         return(
-            <div style={{overflow: "hidden"}}><h3 style={{marginTop: "calc(100vh - 250px)"}}>{"If you see this text, but no large grid above, your browser is several years out of date. Please use an up-to-date Chrome or Firefox based browser."}</h3></div>
+            <div style={{overflow: "hidden"}}><h3 style={{marginTop: "calc(100vh - 250px)"}}>{"If you see this text, but no large grid above, your browser is at least 11 days out of date. Please use an up-to-date Chrome or Firefox based browser."}</h3></div>
         )
     }
 }
